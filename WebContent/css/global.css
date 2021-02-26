@@ -1,0 +1,164 @@
+
+.search_table {/* 查询条件表格样式 */
+	border-left:#cdd0d3 1px solid;
+	border-top:#cdd0d3 1px solid;
+}
+
+.search_title_L {
+	background:url(images/search_titlebg.jpg) left top repeat-x;
+	height:30px;
+	border-bottom:#cdd0d3 1px solid;
+	font-family:Arial, "iconfont";
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+	line-height:30px;
+}
+
+.search_title_R {
+	background:url(images/search_titlebg.jpg) right top repeat-x;
+	height:30px;
+	text-align:right;
+	border-right:#cdd0d3 1px solid;
+	border-bottom:#cdd0d3 1px solid;
+}
+
+.search_title_R a {
+	font:normal 16px "iconfont";
+	color:#333333;
+	text-decoration:none;
+	line-height:30px;
+}
+
+.search_title_R a:hover {
+	text-decoration:underline;
+}
+
+.search_td1 {
+	background-color:#F5F5F5;
+	border-right:#cdd0d3 1px solid;
+	border-bottom:#cdd0d3 1px solid;
+	text-align:right;
+	padding-right:5px;
+	line-height:28px;
+}
+
+.search_td2 {
+	background-color:#FFFFFF;
+	border-right:#cdd0d3 1px solid;
+	border-bottom:#cdd0d3 1px solid;
+	text-align:left;
+	padding-left:5px;
+	line-height:28px;
+}
+
+.search_btn {
+	background-color:#FFFFFF;
+	border-right:#cdd0d3 1px solid;
+	border-bottom:#cdd0d3 1px solid;
+	text-align:center;
+	line-height:28px;
+	cursor:pointer;
+}
+
+
+
+/*-----------button styles-----------*/
+
+
+.x-nav{
+	padding: 0 20px;
+	position: relative;
+	z-index: 99;
+	border-bottom: 1px solid #e5e5e5;
+	line-height: 39px;
+	height: 39px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.x-admin-sm  .layui-breadcrumb>*{
+	font-size: 12px;
+}
+
+.btn_14 {/* 14个字按钮底图 */
+	background:url(images/btn_12.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:204px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_12 {/* 12个字按钮底图 */
+	background:url(images/btn_10.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:170px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_8 {/* 8个字按钮底图 */
+	background:url(images/btn_8.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:136px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_6 {/* 6个字按钮底图 */
+	background:url(images/btn_6.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:99px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_4 {/* 4个字按钮底图 */
+	background:url(images/btn_4.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:62px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_2 {/* 2个字按钮底图 */
+	background:url(images/btn_2.jpg) center top no-repeat;
+	border:0;
+	color:#FFFFFF;
+	line-height:23px;
+	width:48px;
+	height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	cursor:pointer;
+}
+
+.btn_search {
+	background:url(images/search_btn.jpg) center top no-repeat;
+	border:0;
+	width:58px;
+	height:23px;
+	line-height:23px;
+	cursor:pointer;
+}
+

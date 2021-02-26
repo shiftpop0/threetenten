@@ -1,0 +1,94 @@
+.eXtremeTable .tableHeader {
+    /*FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ffffff,endColorStr=#98B2E6);*/
+    /**
+    color: black;
+    font-size: 12px;
+    
+    text-align: center;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0px;
+    border-right: 1px solid #999999;
+	border-top: 1px solid #999999;
+	
+    background-image: url( "../images/tableTopbg.gif" );
+	height: 25px;
+	**/
+    padding: 1px;
+    background:url(../css/images/table_headerbg.jpg) left top repeat-x;
+
+    border-right: 1px solid #999999;
+    border-top: 1px solid #999999;
+    height:25px;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+
+.eXtremeTable .odd td, .eXtremeTable .even td {
+    vertical-align: middle;
+    font-size: 16px;
+
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #999999;
+
+    height: 22px;
+}
+
+.eXtremeTable .odd {
+    background-color: #FFFFFF;
+}
+
+.eXtremeTable .even {
+    /* background-color: #EDF2F6; */
+    background-color:whiteSmoke;
+}
+
+.eXtremeTable .highlight td {
+    color: black;
+    font-size: 16px;
+    vertical-align: middle;
+    background-color: #fdecae;
+
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #999999;
+
+    height: 22px;
+}
+
+
+.eXtremeTable .statusBar {
+    background: url(images/search_titlebg.jpg) left top repeat-x;
+
+    padding-left: 10px;
+    font-family: Arial, "iconfont";
+    font-size: 16px;
+    text-align: left;
+    line-height: 26px;
+
+
+}
+.eXtremeTable .compactToolbar{
+    background: url(images/search_titlebg.jpg) left top repeat-x;
+    padding-right: 10px;
+    font-family: Arial, "iconfont";
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.eXtremeTable .compactToolbar table{
+    float:right ;
+
+}
+

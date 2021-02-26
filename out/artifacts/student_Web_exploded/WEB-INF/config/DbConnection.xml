@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataBaseConnection>
+	<!-- 定义权限管理数据库连接参数，现在用mySql数据库 -->
+	<!-- 此处应该是数据库系统名称，应该与web.xml定义的数据库名字相同 -->
+	<!-- 授权管理配置数据库使用单独的名字来实现，这个名字是固定的 -->
+	<!-- 重构修改后变成可以配置的 -->
+	<DataBase name = "authorization">
+		<!-- 数据库连接字符串 -->
+		<!--<ConnectionString>jdbc:mysql://localhost/student</ConnectionString>-->
+		<ConnectionString>jdbc:mysql://59.110.243.60:33305/student</ConnectionString>
+		<!-- 驱动程序 -->
+		<!--<Driver>com.mysql.jdbc.Driver</Driver>-->
+		<Driver>com.mysql.jdbc.Driver</Driver>
+		<!-- 用户名 -->
+		<!--<UserName>root</UserName>-->
+		<UserName>root</UserName>
+		<!-- 密码 -->
+		<!--<Password>root</Password>-->
+		<Password>admin</Password>
+	</DataBase>
+	
+	<!-- 定义MySql数据库连接参数 -->
+	<!-- 数据库系统名称，这个应该与web.xml定义的数据库名字相同 -->
+	<DataBase name = "mySql">
+		<!-- 数据库连接字符串 -->
+		<ConnectionString>jdbc:mysql://59.110.243.60:33305/student</ConnectionString>
+		<!-- 驱动程序 -->
+		<Driver>com.mysql.jdbc.Driver</Driver>
+		<!-- 用户名 -->
+		<UserName>root</UserName>
+		<!-- 密码 -->
+		<Password>admin</Password>
+	</DataBase>
+	
+	<!-- 下面可以参照这个定义其他的数据库系统的连接字符串 -->
+	<!-- 可以将多个数据库连接串放到一起，前面用数据库系统名字区分 -->
+</DataBaseConnection>

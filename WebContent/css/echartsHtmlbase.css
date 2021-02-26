@@ -1,0 +1,39 @@
+/*使用了echarts插件渲染的页面使用此通用css*/
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.nav-select{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 100px
+}
+.nav-select2{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 400px
+}
+.nav-select3{
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 670px
+}
+.echarts-container{
+    width: 100%;
+    height: 94.3%;
+    margin: auto;
+}
+
+.nav-selectXY2{
+    /*z-index: 100;*/
+    position: relative;
+    bottom: 53px;
+    /*top: -55px;*/
+    right: 300px;
+}

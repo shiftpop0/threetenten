@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>DataAnalysis</display-name>
+	
+	<servlet>
+		<servlet-name>trainServlet</servlet-name>
+		<servlet-class>cnedu.ncist.demo.web.TrainServlet</servlet-class>
+		
+		<init-param> 
+			<param-name>AuthDataBaseName</param-name>     
+			<param-value>authorization</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>AppDataBaseName</param-name>     
+			<param-value>mySql</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>DBConfigFile</param-name>     
+			<param-value>DbConnection.xml</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>FrameConfigFile</param-name>     
+			<param-value>hkdf.xml</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>AppBasePath</param-name>     
+			<param-value>cnedu.ncist</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>ConfigPath</param-name>     
+			<param-value>config</param-value> 
+		 </init-param>    
+		<init-param> 
+			<param-name>JspPath</param-name>
+			<param-value>jsp</param-value>
+		 </init-param>    
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>trainServlet</servlet-name>
+			<url-pattern>/trainServlet/*</url-pattern>
+<!--			<url-pattern>/trainServlet/*</url-pattern>-->
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>app.servlet.path</param-name>
+		<param-value>trainServlet</param-value>
+	</context-param>
+	
+	<!-- ec table -->
+	<context-param>
+		<param-name>extremecomponentsPreferencesLocation</param-name>
+		<param-value>/conf/extremetable.properties</param-value>
+	</context-param>
+	<jsp-config>
+		<taglib>
+			<taglib-uri>/tld/extremecomponents</taglib-uri>
+			<taglib-location>/WEB-INF/tld/extremecomponents.tld</taglib-location>
+		</taglib>
+	
+		<!-- jstl configuration -->
+		<taglib>
+			<taglib-uri>http://java.sun.com/jstl/fmt</taglib-uri>
+			<taglib-location>/WEB-INF/tld/fmt.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+			<taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jstl/sql</taglib-uri>
+			<taglib-location>/WEB-INF/tld/sql.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jstl/x</taglib-uri>
+			<taglib-location>/WEB-INF/tld/x.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+	<welcome-file-list>
+<!--		<welcome-file>default.jsp</welcome-file>-->
+<!--		<welcome-file>index.html</welcome-file>-->
+<!--		<welcome-file>index.htm</welcome-file>-->
+<!--		<welcome-file>index.jsp</welcome-file>-->
+<!--		<welcome-file>default.html</welcome-file>-->
+<!--		<welcome-file>default.htm</welcome-file>-->
+		<welcome-file>jsp/login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

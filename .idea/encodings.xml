@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/analyse/service/AnalyseService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/attendance/service/AttendanceService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/attendance/web/AttendanceRequestHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/authmenu/service/AuthmenuService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/authmenu/web/AuthmenuRequestHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/authrole/service/AuthroleService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/authrole/web/AuthroleRequestHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/authuser/service/AuthuserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/calculate/service/CalculateService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/datainput/service/DatainputService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/lecture/service/LectureService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/login/service/LoginService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/mainpage/service/MainpageService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/personal/service/PersonalService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/stuusers/web/StuusersFlowHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/stuusers/web/StuusersRequestHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/util/ChangeList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/util/ExcelExport.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/util/ExcelUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cnedu/ncist/util/MysqlDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/ncist/wang/hkdf/dao/database/DataBaseAccess.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/edu/ncist/wang/hkdf/web/MainServlet.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

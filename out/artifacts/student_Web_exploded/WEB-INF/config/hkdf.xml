@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DemoFrame>
+	<Action name="mainpage">
+		<OperatePoint name = "mainpage_SelectInit">
+			<Result name="success">mainpage/mainpageInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select1">
+			<Result name="success">mainpage/mainpageInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select2">
+			<Result name="success">mainpage/mainpageInfo2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select3">
+			<Result name="success">mainpage/mainpageInfo3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select4">
+			<Result name="success">mainpage/mainpageInfo4.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<!--最热专业方法-->
+		<OperatePoint name = "mainpage_Select5">
+			<Result name="success">mainpage/mainpageInfo5.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select5ByMajor">
+			<Result name="success">mainpage/mainpageInfo5.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select6">
+			<Result name="success">mainpage/mainpageInfo6.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select7">
+			<Result name="success">mainpage/mainpageInfo7.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select8">
+			<Result name="success">mainpage/mainpageInfo8.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select1Family">
+			<Result name="success">mainpage/mainpageInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select2Major">
+			<Result name="success">mainpage/mainpageInfo10.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select3Family">
+			<Result name="success">mainpage/mainpageInfo9.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_Select4Major">
+			<Result name="success">mainpage/mainpageInfo11.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_SelectAll">
+			<Result name="success">mainpage/mainpageInfoAll.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mainpage_SelectAll1">
+			<Result name="success">mainpage/mainpageInfoAll1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name="enterpage">
+		<OperatePoint name = "enterpage_Select1">
+			<Result name="success">enterpage/enterpageInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select2">
+			<Result name="success">enterpage/enterpageInfo2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select3">
+			<Result name="success">enterpage/enterpageInfo3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select4">
+			<Result name="success">enterpage/enterpageInfo4.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+				<OperatePoint name = "enterpage_Select5">
+			<Result name="success">enterpage/enterpageInfo5.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+				<OperatePoint name = "enterpage_Select6">
+			<Result name="success">enterpage/enterpageInfo6.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+				<OperatePoint name = "enterpage_Select7">
+			<Result name="success">enterpage/enterpageInfo7.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+				<OperatePoint name = "enterpage_Select8">
+			<Result name="success">enterpage/enterpageInfo8.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select1Family">
+			<Result name="success">enterpage/enterpageInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select2Major">
+			<Result name="success">enterpage/enterpageInfo2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select3Family">
+			<Result name="success">enterpage/enterpageInfo3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_Select4Major">
+			<Result name="success">enterpage/enterpageInfo4.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_SelectAll">
+			<Result name="success">enterpage/enterpageInfoAll.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_SelectAll1">
+			<Result name="success">enterpage/enterpageInfoAll1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterpage_SelectEnroll">
+			<Result name="success">enterpage/enterpageInfoEnroll.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name="enterstu">
+		<OperatePoint name = "enterstu_Select1">
+			<Result name="success">enterstu/enterstuInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterstu_Select1_1">
+			<Result name="success">enterstu/enterstuInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterstu_Select2">
+			<Result name="success">enterstu/enterstuInfof.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "enterstu_Select2_2">
+			<Result name="success">enterstu/enterstuInfof.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name="stuusers">
+		<!--中学信息初始-->
+		<OperatePoint name = "stuusers_MiddleSchool_Init">
+			<Result name="success">middleschool/middleschool.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<!-- 中学信息__省份查找 -->
+		<OperatePoint name = "stuusers_MiddleSchool_Province">
+			<Result name="success">middleschool/middleschool.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<!-- 中学地区分布 -->
+		<OperatePoint name = "stuusers_MiddleSchool_Distribution">
+			<Result name="success">map.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+
+	</Action>
+	<Action name = "login">
+		<OperatePoint name = "login_Init">
+			<Result name="success">mainpage.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "register">
+		<OperatePoint name = "reg_SelectInit">
+			<Result name="success">register.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "reg_Save">
+			<Result name="success">login.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "authuser">
+		<OperatePoint name = "authuser_SelectInit">
+			<Result name="success">authuser/userInfo.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_Select">
+			<Result name="success">authuser/userInfo.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_AddInit">
+			<Result name="success">authuser/userNew.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_Add">
+			<Result name="success">authuser/userInfo.jsp</Result>
+			<Result name="fail">authuser/userNew.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_StateChange">
+			<Result name="success">authuser/userInfo.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_PasswordChange">
+			<Result name="success">authuser/passwordChange.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_PasswordChanged">
+		</OperatePoint>
+		<OperatePoint name = "authuser_AuthrizeInit">
+			<Result name="success">authuser/userRoleMap.jsp</Result>
+			<Result name="fail">authuser/userInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authuser_Authrize">
+			<Result name="success">authuser/userInfo.jsp</Result>
+			<Result name="fail">authuser/userRoleMap.jsp</Result>
+		</OperatePoint>
+		
+		<OperatePoint name = "authuser_CheckDup">
+		</OperatePoint>
+		
+		<OperatePoint name = "authorgan_SelectInit">
+			<Result name="success">authuser/organizationInfo.jsp</Result>
+			<Result name="fail">authuser/organizationInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authorgan_Select">
+			<Result name="success">authuser/organizationInfo.jsp</Result>
+			<Result name="fail">authuser/organizationInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authorgan_AddInit">
+			<Result name="success">authuser/organizationNew.jsp</Result>
+			<Result name="fail">authuser/organizationInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authorgan_Add">
+			<Result name="success">authuser/organizationInfo.jsp</Result>
+			<Result name="fail">authuser/organizationNew.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authorgan_StateChange">
+			<Result name="success">authuser/organizationInfo.jsp</Result>
+			<Result name="fail">authuser/organizationInfo.jsp</Result>
+		</OperatePoint>
+		
+		<OperatePoint name = "authgroup_SelectInit">
+			<Result name="success">authuser/groupInfo.jsp</Result>
+			<Result name="fail">authuser/groupInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_Select">
+			<Result name="success">authuser/groupInfo.jsp</Result>
+			<Result name="fail">authuser/groupInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_AddInit">
+			<Result name="success">authuser/groupNew.jsp</Result>
+			<Result name="fail">authuser/groupInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_Add">
+			<Result name="success">authuser/groupInfo.jsp</Result>
+			<Result name="fail">authuser/groupNew.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_StateChange">
+			<Result name="success">authuser/groupInfo.jsp</Result>
+			<Result name="fail">authuser/groupInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_SetmemberInit">
+			<Result name="success">authuser/setMember.jsp</Result>
+			<Result name="fail">authuser/groupInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authgroup_Setmember">
+			<Result name="success">authuser/groupInfo.jsp</Result>
+			<Result name="fail">authuser/setMember.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "authrole">
+		<OperatePoint name = "authrole_SelectInit">
+			<Result name="success">authrole/roleInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_Select">
+			<Result name="success">authrole/roleInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_AddInit">
+			<Result name="success">authrole/roleNew.jsp</Result>
+			<Result name="fail">authrole/roleInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_Add">
+			<Result name="success">authrole/roleInfo.jsp</Result>
+			<Result name="fail">authrole/roleNew.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_AuthrizeInit">
+			<Result name="success">authrole/roleMenuMap.jsp</Result>
+			<Result name="fail">authrole/roleInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_Authrize">
+			<Result name="success">authrole/roleInfo.jsp</Result>
+			<Result name="fail">authrole/roleMenuMap.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authrole_StateChange">
+			<Result name="success">authrole/roleInfo.jsp</Result>
+			<Result name="fail">authrole/roleInfo.jsp</Result>
+		</OperatePoint>
+		
+		<OperatePoint name = "authrole_CheckDup">
+		</OperatePoint>
+	</Action>
+	<Action name = "authmenu">
+		<OperatePoint name = "authmenu_SelectInit">
+			<Result name="success">authmenu/menuInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authmenu_Select">
+			<Result name="success">authmenu/menuInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authmenu_AddInit">
+			<Result name="success">authmenu/menuNew.jsp</Result>
+			<Result name="fail">authmenu/menuInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authmenu_Add">
+			<Result name="success">authmenu/menuInfo.jsp</Result>
+			<Result name="fail">authmenu/menuNew.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "authmenu_StateChange">
+			<Result name="success">authmenu/menuInfo.jsp</Result>
+			<Result name="fail">authmenu/menuInfo.jsp</Result>
+		</OperatePoint>
+		
+		<OperatePoint name = "authmenu_CheckDup">
+		</OperatePoint>
+	</Action>
+	<Action name = "attendance">
+		<OperatePoint name = "basictime_SelectInit">
+			<Result name="success">compare/compareInfo.jsp</Result>
+			<Result name="fail">mainpage.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "basictime_Set">
+			<Result name="success">attendance/basictimeDetail.jsp</Result>
+			<Result name="fail">attendance/basictime.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "basictime_DetailInit">
+			<Result name="success">attendance/basictimeDetail.jsp</Result>
+			<Result name="fail">attendance/basictime.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_SelectInit">
+			<Result name="success">attendance/worktimeInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_AddInit">
+			<Result name="success">attendance/worktimeInput.jsp</Result>
+			<Result name="fail">attendance/worktimeInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_Add">
+			<Result name="success">attendance/worktimeInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeInput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_Delete">
+			<Result name="success">attendance/worktimeInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_InspectInit">
+			<Result name="success">attendance/worktimeInspectInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeInspectInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_ViewInit">
+			<Result name="success">attendance/worktimeViewInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeViewInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_SumInit">
+			<Result name="success">attendance/worktimeSumInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeSumInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "worktime_SumDetailInit">
+			<Result name="success">attendance/worktimeSumDetailInfo.jsp</Result>
+			<Result name="fail">attendance/worktimeSumInfo.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "meeting">
+		<OperatePoint name = "meet_SelectInit">
+			<Result name="success">meeting/meetingInfo.jsp</Result>
+			<Result name="fail">meeting/meetingInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "meet_AddInit">
+			<Result name="success">meeting/meetingInput.jsp</Result>
+			<Result name="fail">meeting/meetingInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "meet_Add">
+			<Result name="success">meeting/meetingInfo.jsp</Result>
+			<Result name="fail">meeting/meetingInput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "meet_Delete">
+			<Result name="success">meeting/meetingInfo.jsp</Result>
+			<Result name="fail">meeting/meetingInfo.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "lecture">
+		<OperatePoint name = "lecture_SelectInit">
+			<Result name="success">lecture/lectureInfo.jsp</Result>
+			<Result name="fail">lecture/lectureInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lecture_AddInit">
+			<Result name="success">lecture/lectureInput.jsp</Result>
+			<Result name="fail">lecture/lectureInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lecture_Add">
+			<Result name="success">lecture/lectureInfo.jsp</Result>
+			<Result name="fail">lecture/lectureInput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lecture_Delete">
+			<Result name="success">lecture/lectureInfo.jsp</Result>
+			<Result name="fail">lecture/lectureInfo.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lecture_Detail">
+			<Result name="success">lecture/lectureDetail.jsp</Result>
+			<Result name="fail">lecture/lectureInfo.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "personal">
+		<OperatePoint name = "personal_ChangeInit">
+			<Result name="success">personal/changePassword.jsp</Result>
+			<Result name="fail">personal/changePassword.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "report">
+		<OperatePoint name = "report_SelectInit">
+			<Result name="success">report/annualReport.jsp</Result>
+			<Result name="fail">report/annualReport.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "request">
+		<OperatePoint name = "request_SelectInit">
+			<Result name="success">stamp/requestInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<!-- 预测 -->
+	<Action name = "calculate">
+		<OperatePoint name = "calculate_Score">
+			<Result name = "success">calculate/calculate_score.jsp</Result>
+			<Result name = "fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name="analyse">
+		<!--学校对比分许-->
+		<OperatePoint name = "analyse_School">
+			<Result name="success">analyse/analyseInfo.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "analyse_School1">
+			<Result name="success">analyse/analyseInfo1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "analyse_School2">
+			<Result name="success">analyse/analyseInfo2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "analyse_School3">
+			<Result name="success">analyse/analyseInfo3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "analyse_School4">
+			<Result name="success">analyse/analyseInfo4.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<!--省份数据-->
+	<Action name="interstus">
+		<OperatePoint name = "interstuinfo">
+			<Result name="success">interstus/provinceSelect.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "interstuinfoSelectedByProvince">
+			<Result name="success">interstus/provinceSelect.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+	#数据导入
+	<Action name = "datainput">
+		<OperatePoint name = "fileup">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "put">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "delete">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "calculate">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "cratetable">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "Excle">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<Action name = "export">
+		<OperatePoint name = "bd_new">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lq">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lq_20">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "lz_bd">
+			<Result name="success">datainput/datainput.jsp</Result>
+			<Result name="fail">datainput/datainput.jsp</Result>
+		</OperatePoint>
+	</Action>
+	<!--测试方法-->
+	<!--  这是git测试代码4	-->
+	<Action name = "test">
+		<OperatePoint name = "test">
+			<Result name="success">test/test.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "map_Test">
+			<Result name="success">test/map_test.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "mapProvince">
+			<Result name="success">test/mapProvince.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart1">
+			<Result name="success">test/dataChart1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart2">
+			<Result name="success">test/dataChart2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart3">
+			<Result name="success">test/dataChart3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart4">
+			<Result name="success">test/dataChart4.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart5">
+			<Result name="success">test/dataChart5.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart6">
+			<Result name="success">test/dataChart6.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "dataChart7">
+			<Result name="success">test/dataChart7.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "chart">
+			<Result name="success">test/chart1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "chart2">
+			<Result name="success">test/chart2.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "chart3">
+			<Result name="success">test/chart3.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "work_test">
+			<Result name="success">test/work_test.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "workDetail">
+			<Result name="success">test/chart1_1.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "careerType">
+			<Result name="success">test/careerType.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+		<OperatePoint name = "provinceJobTable">
+			<Result name="success">test/provinceJobTable.jsp</Result>
+			<Result name="fail">fail.jsp</Result>
+		</OperatePoint>
+	</Action>
+</DemoFrame>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

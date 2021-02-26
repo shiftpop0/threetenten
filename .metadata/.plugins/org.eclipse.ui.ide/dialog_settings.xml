@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Administrator\Desktop\pro\JavaAnalysis (1)\JavaAnalysis"/>
+		<item value="C:\Users\Administrator\Desktop\pro\JavaAnalysis (1)"/>
+		<item value="C:\Users\Administrator\Desktop\pro\201507034211-刘继鑫-毕业设计文件\201507034211-刘继鑫\华北科技学院招生录取数据分析系统\DataAnalysis"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Administrator\Desktop\pro\201507034211-刘继鑫-毕业设计文件\201507034211-刘继鑫\华北科技学院招生录取数据分析系统\DataAnalysis"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
